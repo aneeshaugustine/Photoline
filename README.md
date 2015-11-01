@@ -17,15 +17,15 @@ Return the Complete Data with a specific date range
 
 	//	Also Available
 
-mz.assetGroups;  // ALL ALBUMS
-mz.media;        // ALL IMAGES
-mz.ordermedia;   // Sorted Images by Date
+//mz.assetGroups;  // ALL ALBUMS
+//mz.media;        // ALL IMAGES
+//mz.ordermedia;   // Sorted Images by Date
 
     }];
 
 
-mz.startdate  // NSDate
-mz.endDate;   // NSDate
+//mz.startdate  // NSDate
+//mz.endDate;   // NSDate
 mz.allAlbum = YES/NO ;  // Fetch all Albums / Only Camera roll
 mz.errorAlert=NO;       // Show Fetch Error
 
