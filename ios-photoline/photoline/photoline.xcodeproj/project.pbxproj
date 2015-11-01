@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		243339D01BE5D9C0006457BA /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 243339CF1BE5D9C0006457BA /* Untitled.png */; settings = {ASSET_TAGS = (); }; };
 		243339D51BE5FE96006457BA /* MZAlubumReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 243339D41BE5FE96006457BA /* MZAlubumReader.m */; settings = {ASSET_TAGS = (); }; };
+		2479F3541BE65D0700BF05A2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2479F3511BE65D0700BF05A2 /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		2479F3551BE65D0800BF05A2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2479F3521BE65D0700BF05A2 /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		2479F3561BE65D0800BF05A2 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2479F3531BE65D0700BF05A2 /* FBSDKMessengerShareKit.framework */; settings = {ASSET_TAGS = (); }; };
 		24FBEF261BE479C400EC0EC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBEF251BE479C400EC0EC5 /* main.m */; };
 		24FBEF291BE479C400EC0EC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBEF281BE479C400EC0EC5 /* AppDelegate.m */; };
 		24FBEF2C1BE479C400EC0EC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBEF2B1BE479C400EC0EC5 /* ViewController.m */; };
@@ -19,9 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		243339CF1BE5D9C0006457BA /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
 		243339D31BE5FE96006457BA /* MZAlubumReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZAlubumReader.h; path = Lib/MZAlubumReader.h; sourceTree = "<group>"; };
 		243339D41BE5FE96006457BA /* MZAlubumReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZAlubumReader.m; path = Lib/MZAlubumReader.m; sourceTree = "<group>"; };
+		2479F3511BE65D0700BF05A2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../FacebookSDKs-iOS-20151026/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		2479F3521BE65D0700BF05A2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../FacebookSDKs-iOS-20151026/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		2479F3531BE65D0700BF05A2 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = "../../../../FacebookSDKs-iOS-20151026/FBSDKMessengerShareKit.framework"; sourceTree = "<group>"; };
 		24FBEF211BE479C400EC0EC5 /* photoline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FBEF251BE479C400EC0EC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24FBEF271BE479C400EC0EC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2479F3551BE65D0800BF05A2 /* FBSDKLoginKit.framework in Frameworks */,
+				2479F3561BE65D0800BF05A2 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				2479F3541BE65D0700BF05A2 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +59,6 @@
 			children = (
 				24FBEF231BE479C400EC0EC5 /* photoline */,
 				24FBEF221BE479C400EC0EC5 /* Products */,
-				243339CF1BE5D9C0006457BA /* Untitled.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +73,9 @@
 		24FBEF231BE479C400EC0EC5 /* photoline */ = {
 			isa = PBXGroup;
 			children = (
+				2479F3511BE65D0700BF05A2 /* FBSDKCoreKit.framework */,
+				2479F3521BE65D0700BF05A2 /* FBSDKLoginKit.framework */,
+				2479F3531BE65D0700BF05A2 /* FBSDKMessengerShareKit.framework */,
 				24FBEF271BE479C400EC0EC5 /* AppDelegate.h */,
 				24FBEF281BE479C400EC0EC5 /* AppDelegate.m */,
 				24FBEF2A1BE479C400EC0EC5 /* ViewController.h */,
@@ -149,7 +158,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243339D01BE5D9C0006457BA /* Untitled.png in Resources */,
 				24FBEF341BE479C400EC0EC5 /* LaunchScreen.storyboard in Resources */,
 				24FBEF311BE479C400EC0EC5 /* Assets.xcassets in Resources */,
 				24FBEF2F1BE479C400EC0EC5 /* Main.storyboard in Resources */,
@@ -215,6 +223,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/mzalih/CodeBank/FacebookSDK/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -258,6 +267,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/mzalih/CodeBank/FacebookSDK/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
