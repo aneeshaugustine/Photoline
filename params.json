@@ -1,0 +1,6 @@
+{
+  "name": "Photoline",
+  "tagline": "",
+  "body": "# Photoline\r\nThis App Contains a Class to fetch images from IOS obj c Ver 7.0\r\n\r\nHow to use ?\r\nCopy the Lib folder to your project\r\n\r\nReturn the Complete Data with a specific date range\r\n\r\n\r\n    mz = [[MZAlubumReader alloc]init];\r\n    mz.startdate =\r\n\r\n    [mz fetch:^(NSMutableArray *response) {\r\n\r\n\t// Array of ALAsset for each date\r\n\t\tresponse //Sorted Images by Date\r\n\r\n\t//\tAlso Available\r\n\r\n//mz.assetGroups;  // ALL ALBUMS\r\n//mz.media;        // ALL IMAGES\r\n//mz.ordermedia;   // Sorted Images by Date\r\n\r\n    }];\r\n\r\n\r\n//mz.startdate  // NSDate\r\n//mz.endDate;   // NSDate\r\nmz.allAlbum = YES/NO ;  // Fetch all Albums / Only Camera roll\r\nmz.errorAlert=NO;       // Show Fetch Error\r\n\r\n\r\n\r\n\r\nALAsset * alAsset = [[_ordermedia objectAtIndex:indexPath.section]objectAtIndex:indexPath.row];\r\n\r\n    [mz getImage:alAsset :^(UIImage *image) {\r\n\r\n        imageView.image= image;\r\n\r\n    }];\r\n\r\n\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
